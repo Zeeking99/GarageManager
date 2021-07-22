@@ -3,9 +3,9 @@ from mysql.connector import connection
 from tkinter import messagebox
 
 def init_connection():
-	return connection.MySQLConnection(user='zeeking99', password='uzmasadia',
-								host='127.0.0.1',
-								database='garagedb')
+	return connection.MySQLConnection(user='username', password='user_password',
+								host='IP Address of Server',
+								database='Name of DB')
 
 class Main(Tk):
     def __init__(self):
