@@ -2,6 +2,7 @@
 Python Tkinter GUI app for management of a repair workshop.
 
 Dependencies
+
 MySQL DBMS
 > sudo apt install mysql-server
 
